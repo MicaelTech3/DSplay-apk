@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         myWeb = findViewById(R.id.myWeb);
         myWeb.getSettings().setJavaScriptEnabled(true);
         myWeb.setWebViewClient(new WebViewClient());
-        myWeb.loadUrl("https://controle-tvs.firebaseapp.com/");
+        myWeb.loadUrl("https://tvdsigner.com.br/");
 
     }
 }
